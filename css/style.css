@@ -1,0 +1,96 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html img {
+  vertical-align: bottom;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 300px;
+}
+
+body main {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+body #main {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 8px;
+}
+
+body nav {
+  margin-bottom: 8px;
+}
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body nav ul #play {
+  width: 140px;
+}
+
+body nav ul #prev, body nav ul #next {
+  width: 60px;
+}
+
+body nav ul li {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body nav ul li:hover {
+  background-color: #f8f8f8;
+}
+
+body .thumbnails {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (56px)[5];
+      grid-template-columns: repeat(5, 56px);
+  gap: 5px;
+}
+
+body .thumbnails li {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+body .thumbnails li:hover {
+  opacity: 1;
+}
+
+body .thumbnails li.current {
+  opacity: 1;
+}
+
+body .thumbnails img {
+  width: 56px;
+}
+/*# sourceMappingURL=style.css.map */
